@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154442F11C3D6B5E00729E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 154442F01C3D6B5E00729E47 /* main.m */; };
+		154442F41C3D6B5E00729E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 154442F31C3D6B5E00729E47 /* AppDelegate.m */; };
+		154442F71C3D6B5E00729E47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154442F61C3D6B5E00729E47 /* ViewController.m */; };
+		154442FA1C3D6B5E00729E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154442F81C3D6B5E00729E47 /* Main.storyboard */; };
+		154442FC1C3D6B5E00729E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154442FB1C3D6B5E00729E47 /* Assets.xcassets */; };
+		154442FF1C3D6B5E00729E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154442FD1C3D6B5E00729E47 /* LaunchScreen.storyboard */; };
+		154443081C3D6BE000729E47 /* brushRose.png in Resources */ = {isa = PBXBuildFile; fileRef = 154443071C3D6BE000729E47 /* brushRose.png */; };
+		154443101C3D6C4F00729E47 /* Emitter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1544430A1C3D6C4F00729E47 /* Emitter.fsh */; };
+		154443111C3D6C4F00729E47 /* Emitter.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1544430B1C3D6C4F00729E47 /* Emitter.vsh */; };
+		154443121C3D6C4F00729E47 /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1544430D1C3D6C4F00729E47 /* EmitterShader.m */; };
+		154443151C3D6C8C00729E47 /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 154443141C3D6C8C00729E47 /* ShaderProcessor.mm */; };
+		1544431B1C3D6DBB00729E47 /* RLGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1544431A1C3D6DBB00729E47 /* RLGLKView.m */; };
+		1544431E1C3D712800729E47 /* RLToolSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1544431D1C3D712800729E47 /* RLToolSettings.m */; };
+		154443211C3D79EE00729E47 /* RLEmmiterBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 154443201C3D79EE00729E47 /* RLEmmiterBrush.m */; };
+		154443241C3D829400729E47 /* RLEmmiterBrushTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 154443231C3D829400729E47 /* RLEmmiterBrushTool.m */; };
+		154443261C3D9C5700729E47 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 154443251C3D9C5700729E47 /* LaunchScreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		154442EC1C3D6B5E00729E47 /* Texture Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texture Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154442F01C3D6B5E00729E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		154442F21C3D6B5E00729E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		154442F31C3D6B5E00729E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		154442F51C3D6B5E00729E47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		154442F61C3D6B5E00729E47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		154442F91C3D6B5E00729E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		154442FB1C3D6B5E00729E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		154442FE1C3D6B5E00729E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		154443001C3D6B5E00729E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154443071C3D6BE000729E47 /* brushRose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushRose.png; sourceTree = "<group>"; };
+		1544430A1C3D6C4F00729E47 /* Emitter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.fsh; sourceTree = "<group>"; };
+		1544430B1C3D6C4F00729E47 /* Emitter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.vsh; sourceTree = "<group>"; };
+		1544430C1C3D6C4F00729E47 /* EmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShader.h; sourceTree = "<group>"; };
+		1544430D1C3D6C4F00729E47 /* EmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShader.m; sourceTree = "<group>"; };
+		1544430E1C3D6C4F00729E47 /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
+		154443141C3D6C8C00729E47 /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
+		154443191C3D6DBB00729E47 /* RLGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLGLKView.h; sourceTree = "<group>"; };
+		1544431A1C3D6DBB00729E47 /* RLGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLGLKView.m; sourceTree = "<group>"; };
+		1544431C1C3D712800729E47 /* RLToolSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLToolSettings.h; sourceTree = "<group>"; };
+		1544431D1C3D712800729E47 /* RLToolSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLToolSettings.m; sourceTree = "<group>"; };
+		1544431F1C3D79EE00729E47 /* RLEmmiterBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLEmmiterBrush.h; sourceTree = "<group>"; };
+		154443201C3D79EE00729E47 /* RLEmmiterBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLEmmiterBrush.m; sourceTree = "<group>"; };
+		154443221C3D829300729E47 /* RLEmmiterBrushTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLEmmiterBrushTool.h; sourceTree = "<group>"; };
+		154443231C3D829400729E47 /* RLEmmiterBrushTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLEmmiterBrushTool.m; sourceTree = "<group>"; };
+		154443251C3D9C5700729E47 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154442E91C3D6B5E00729E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154442E31C3D6B5E00729E47 = {
+			isa = PBXGroup;
+			children = (
+				154442EE1C3D6B5E00729E47 /* GLKTextureLoaderTest */,
+				154442ED1C3D6B5E00729E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154442ED1C3D6B5E00729E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154442EC1C3D6B5E00729E47 /* Texture Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154442EE1C3D6B5E00729E47 /* GLKTextureLoaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				154443091C3D6C4F00729E47 /* Shaders */,
+				154442F21C3D6B5E00729E47 /* AppDelegate.h */,
+				154442F31C3D6B5E00729E47 /* AppDelegate.m */,
+				154442F51C3D6B5E00729E47 /* ViewController.h */,
+				154442F61C3D6B5E00729E47 /* ViewController.m */,
+				154443191C3D6DBB00729E47 /* RLGLKView.h */,
+				1544431A1C3D6DBB00729E47 /* RLGLKView.m */,
+				1544431C1C3D712800729E47 /* RLToolSettings.h */,
+				1544431D1C3D712800729E47 /* RLToolSettings.m */,
+				1544431F1C3D79EE00729E47 /* RLEmmiterBrush.h */,
+				154443201C3D79EE00729E47 /* RLEmmiterBrush.m */,
+				154443221C3D829300729E47 /* RLEmmiterBrushTool.h */,
+				154443231C3D829400729E47 /* RLEmmiterBrushTool.m */,
+				154442F81C3D6B5E00729E47 /* Main.storyboard */,
+				154442FB1C3D6B5E00729E47 /* Assets.xcassets */,
+				154442FD1C3D6B5E00729E47 /* LaunchScreen.storyboard */,
+				154443001C3D6B5E00729E47 /* Info.plist */,
+				154443061C3D6BE000729E47 /* Resources */,
+				154442EF1C3D6B5E00729E47 /* Supporting Files */,
+			);
+			path = GLKTextureLoaderTest;
+			sourceTree = "<group>";
+		};
+		154442EF1C3D6B5E00729E47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				154442F01C3D6B5E00729E47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		154443061C3D6BE000729E47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				154443251C3D9C5700729E47 /* LaunchScreen.png */,
+				154443071C3D6BE000729E47 /* brushRose.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		154443091C3D6C4F00729E47 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				1544430A1C3D6C4F00729E47 /* Emitter.fsh */,
+				1544430B1C3D6C4F00729E47 /* Emitter.vsh */,
+				1544430C1C3D6C4F00729E47 /* EmitterShader.h */,
+				1544430D1C3D6C4F00729E47 /* EmitterShader.m */,
+				1544430E1C3D6C4F00729E47 /* ShaderProcessor.h */,
+				154443141C3D6C8C00729E47 /* ShaderProcessor.mm */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154442EB1C3D6B5E00729E47 /* Texture Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154443031C3D6B5E00729E47 /* Build configuration list for PBXNativeTarget "Texture Test" */;
+			buildPhases = (
+				154442E81C3D6B5E00729E47 /* Sources */,
+				154442E91C3D6B5E00729E47 /* Frameworks */,
+				154442EA1C3D6B5E00729E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Texture Test";
+			productName = GLKTextureLoaderTest;
+			productReference = 154442EC1C3D6B5E00729E47 /* Texture Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154442E41C3D6B5E00729E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anatoly Weinstein";
+				TargetAttributes = {
+					154442EB1C3D6B5E00729E47 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 154442E71C3D6B5E00729E47 /* Build configuration list for PBXProject "GLKTextureLoaderTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 154442E31C3D6B5E00729E47;
+			productRefGroup = 154442ED1C3D6B5E00729E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154442EB1C3D6B5E00729E47 /* Texture Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154442EA1C3D6B5E00729E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154443111C3D6C4F00729E47 /* Emitter.vsh in Resources */,
+				154442FF1C3D6B5E00729E47 /* LaunchScreen.storyboard in Resources */,
+				154443081C3D6BE000729E47 /* brushRose.png in Resources */,
+				154442FC1C3D6B5E00729E47 /* Assets.xcassets in Resources */,
+				154443261C3D9C5700729E47 /* LaunchScreen.png in Resources */,
+				154442FA1C3D6B5E00729E47 /* Main.storyboard in Resources */,
+				154443101C3D6C4F00729E47 /* Emitter.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154442E81C3D6B5E00729E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154443211C3D79EE00729E47 /* RLEmmiterBrush.m in Sources */,
+				1544431E1C3D712800729E47 /* RLToolSettings.m in Sources */,
+				154443241C3D829400729E47 /* RLEmmiterBrushTool.m in Sources */,
+				154442F71C3D6B5E00729E47 /* ViewController.m in Sources */,
+				154442F41C3D6B5E00729E47 /* AppDelegate.m in Sources */,
+				154442F11C3D6B5E00729E47 /* main.m in Sources */,
+				154443151C3D6C8C00729E47 /* ShaderProcessor.mm in Sources */,
+				1544431B1C3D6DBB00729E47 /* RLGLKView.m in Sources */,
+				154443121C3D6C4F00729E47 /* EmitterShader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		154442F81C3D6B5E00729E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154442F91C3D6B5E00729E47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		154442FD1C3D6B5E00729E47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154442FE1C3D6B5E00729E47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		154443011C3D6B5E00729E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		154443021C3D6B5E00729E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154443041C3D6B5E00729E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLKTextureLoaderTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GLKTextureLoaderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		154443051C3D6B5E00729E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLKTextureLoaderTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GLKTextureLoaderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154442E71C3D6B5E00729E47 /* Build configuration list for PBXProject "GLKTextureLoaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154443011C3D6B5E00729E47 /* Debug */,
+				154443021C3D6B5E00729E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154443031C3D6B5E00729E47 /* Build configuration list for PBXNativeTarget "Texture Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154443041C3D6B5E00729E47 /* Debug */,
+				154443051C3D6B5E00729E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154442E41C3D6B5E00729E47 /* Project object */;
+}
