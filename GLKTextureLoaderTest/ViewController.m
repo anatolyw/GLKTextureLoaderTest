@@ -52,7 +52,7 @@
 
 - (void)downloadRemoteBrush {
     
-    NSString* brushURL = @"http%3A%2F%2Fspiralpainter.com%2Fbrushes%2Fps%2Fps_roses.png";
+    NSString* brushURL = @"http%3A%2F%2Fwww.raptlook.com%2Fproducts%2Fadhoc%2Fbrushes%2Fps_roses.png";
     NSLog(@"brushURLencoded=%@", brushURL);
     NSString *brushURLdecoded = [brushURL stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSLog(@"brushURLdecoded=%@", brushURLdecoded);
