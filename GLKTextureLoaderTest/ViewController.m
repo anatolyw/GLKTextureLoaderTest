@@ -34,11 +34,13 @@
 
 - (void)setDefaultBrushFromBundle {
     [RLToolSettings shared].brushPath = [[NSBundle mainBundle] pathForResource:@"brushRose.png" ofType:nil];
+    [RLToolSettings shared].applyPremultiplication = NO;
     [_drawingTool.drawingView updateBrush];
 }
 
 - (void)setDownloadedBrush {
     [RLToolSettings shared].brushPath = _downloadedBrushName;
+    [RLToolSettings shared].applyPremultiplication = YES;
     [_drawingTool.drawingView updateBrush];
 }
 

@@ -10,6 +10,6 @@
 #import <GLKit/GLKit.h>
 
 @interface RLEmmiterBrush : NSObject
-- (id)initWithProjectionMatrix:(GLKMatrix4)projectionMatrix brushPath:(NSString*)brushPath;
+- (id)initWithProjectionMatrix:(GLKMatrix4)projectionMatrix;
 - (void)renderWithModelViewMatrix:(GLKMatrix4)modelViewMatrix fromPoint:(CGPoint)start toPoint:(CGPoint)end;
 @end

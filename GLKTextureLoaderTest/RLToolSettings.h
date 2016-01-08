@@ -16,6 +16,7 @@
 @property (nonatomic, assign) float transparency;
 
 @property (nonatomic, copy)   NSString* brushPath;
+@property (nonatomic, assign) BOOL applyPremultiplication;
 
 @property (nonatomic, assign) GLKVector3 color;
 

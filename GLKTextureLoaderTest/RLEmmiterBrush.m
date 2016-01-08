@@ -66,22 +66,22 @@ typedef struct Emitter
     glUseProgram(0);
 }
 
-- (void)loadTexture:(NSString*)brushPath {
+- (void)loadTexture {
     
-    NSLog(@"loadTexture = '%@'", brushPath);
+    NSLog(@"loadTexture = '%@'", [RLToolSettings shared].brushPath);
     
-    if(brushPath == nil) {
+    if(nil == [RLToolSettings shared].brushPath) {
         NSLog(@"Error: brushPath is nill");
         return;
     }
     
-    NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:
-                             [NSNumber numberWithBool:NO],
-                             GLKTextureLoaderOriginBottomLeft,
-                             nil];
+    NSMutableDictionary *options = [@{ GLKTextureLoaderOriginBottomLeft : @NO} mutableCopy];
+    if ([RLToolSettings shared].applyPremultiplication) {
+        options[GLKTextureLoaderApplyPremultiplication] = @YES;
+    }
     
     NSError* error;
-    GLKTextureInfo* texture = [GLKTextureLoader textureWithContentsOfFile:brushPath options:options error:&error];
+    GLKTextureInfo* texture = [GLKTextureLoader textureWithContentsOfFile:[RLToolSettings shared].brushPath options:options error:&error];
     if(texture == nil) {
         NSLog(@"Error loading file: %@", [error localizedDescription]);
         
@@ -127,7 +127,7 @@ typedef struct Emitter
 
 #pragma mark - Public Interface
 
-- (id)initWithProjectionMatrix:(GLKMatrix4)projectionMatrix brushPath:(NSString*)brushPath {
+- (id)initWithProjectionMatrix:(GLKMatrix4)projectionMatrix {
     if((self = [super init]))
     {
         _particleBuffer = 0;
@@ -135,7 +135,7 @@ typedef struct Emitter
         _projectionMatrix = projectionMatrix;
         
         [self loadShader];
-        [self loadTexture:brushPath];
+        [self loadTexture];
     }
     return self;
 }

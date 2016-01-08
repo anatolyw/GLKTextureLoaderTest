@@ -144,8 +144,7 @@
 
 - (void)updateBrush {
     [EAGLContext setCurrentContext:self.context];
-    self.emitter = [[RLEmmiterBrush alloc] initWithProjectionMatrix:self.effect.transform.projectionMatrix
-                                                          brushPath:[RLToolSettings shared].brushPath];
+    self.emitter = [[RLEmmiterBrush alloc] initWithProjectionMatrix:self.effect.transform.projectionMatrix];
 }
 
 #pragma mark - GLKViewDelegate

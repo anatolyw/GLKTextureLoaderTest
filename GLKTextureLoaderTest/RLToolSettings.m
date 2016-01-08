@@ -30,6 +30,7 @@
         self.transparency  = 0.05f;
         
         self.brushPath     = [[NSBundle mainBundle] pathForResource:@"brushRose.png" ofType:nil];
+        self.applyPremultiplication = NO;
         
         self.color         = GLKVector3Make(0, 0, 50); // r g b
     }
